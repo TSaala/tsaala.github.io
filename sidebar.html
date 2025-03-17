@@ -1,62 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ai-icons/css/ai-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        /* Sidebar styling */
+        .sidebar {
+            width: 250px;
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+        .sidebar img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .sidebar a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #333;
+        }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+        .icon-pad-right {
+            margin-right: 8px;
+            vertical-align: middle;
+            font-size: 20px;
+        }
+    
+        .icon-link {
+            display: inline-block;  
+            vertical-align: middle; 
+        }
+    
+        .icon-link img {
+            margin-right: 8px;  
+        }
+    </style>
 </head>
-<style>
-    /* Sidebar styling */
-    .sidebar {
-        width: 250px;
-        background-color: #f4f4f4;
-        padding: 20px;
-        text-align: center;
-        height: 100vh;
-        position: fixed;
-        left: 0;
-        top: 0;
-    }
-    .sidebar img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        margin-bottom: 20px;
-    }
-    .sidebar a {
-        display: block;
-        margin: 10px 0;
-        text-decoration: none;
-        color: #333;
-    }
-    .sidebar a:hover {
-        text-decoration: underline;
-    }
-    .icon-pad-right {
-        margin-right: 8px;
-        vertical-align: middle;
-        font-size: 20px;
-    }
 
-    .icon-link {
-        display: inline-block;  
-        vertical-align: middle; 
-    }
-
-    .icon-link img {
-        margin-right: 8px;  
-    }
-</style>
-
-<div class="sidebar">
-    <img src="https://via.placeholder.com/100" alt="Profile Picture">
-    <h3>Timo Saala</h3>
-    <p>PhD Student University of Bonn</p>
-    <a href="mailto:tsaala@uni-bonn.de">📧 Email</a>
-    <div class="icon-link">
-        <i class="ai ai-google-scholar icon-pad-right"></i>
-        <a href="https://scholar.google.de/citations?user=S__0KFEAAAAJ&hl=de">Google Scholar</a>
+<body>
+    <div class="sidebar">
+        <img src="https://via.placeholder.com/100" alt="Profile Picture">
+        <h3>Timo Saala</h3>
+        <p>PhD Student University of Bonn</p>
+        <a href="mailto:tsaala@uni-bonn.de">📧 Email</a>
+        <div class="icon-link">
+            <i class="ai ai-google-scholar icon-pad-right"></i>
+            <a href="https://scholar.google.de/citations?user=S__0KFEAAAAJ&hl=de">Google Scholar</a>
+        </div>
+        <a href="https://github.com/TSaala">💻 GitHub</a>
+        <div class="icon-link">
+            <i class="ai ai-orcid ai-fw icon-pad-right"></i>
+            <a href="https://orcid.org/0009-0003-4401-3970">ORCID</a>
+        </div>
     </div>
-    <a href="https://github.com/TSaala">💻 GitHub</a>
-    <div class="icon-link">
-        <i class="ai ai-orcid ai-fw icon-pad-right"></i>
-        <a href="https://orcid.org/0009-0003-4401-3970">ORCID</a>
-    </div>
-</div>
+</body>
